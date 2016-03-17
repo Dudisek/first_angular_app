@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+.editing-item {
+  zoom: 120%;
+}
+
+.list .edited label:after {
+  content: "edited";
+  text-transform: uppercase;
+  color: gray;
+  font-size: 14px;
+  padding-left: 5px;
+}
