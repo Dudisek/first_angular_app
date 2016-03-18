@@ -2,6 +2,10 @@ body {
   text-align: center;
 }
 
+.item {
+  padding: 5px;
+}
+
 .editing-item {
   zoom: 120%;
 }
@@ -12,4 +16,14 @@ body {
   color: gray;
   font-size: 14px;
   padding-left: 5px;
+}
+
+.list .completed label {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.editing-label {
+  cursor: pointer;
 }
